@@ -11,13 +11,13 @@ def turn(board)
   puts "Please enter 1-9:"
 end
 
-#def valid_move?(board, index)
-#  if position_taken?(board,index) == false && index.between?(0,8)
-#      true
-#  else
-#      false
-#  end
-#end
+def valid_move?(board, index)
+  if position_taken?(board,index) == false && index.between?(0,8)
+      true
+  else
+      false
+  end
+end
 
 #def position_taken? (board,index)
 #  if board[index] == " "
@@ -38,4 +38,3 @@ end
 #      false
 #  end
 #end
-
