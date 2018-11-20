@@ -1,4 +1,4 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -25,7 +25,7 @@ def position_taken? (board,index)
   else board[index] == "X" || "O"
     true
   end
-end  
+end
 
 def valid_move?(board, index,"X")
   if position_taken?(board,index) == false && index.between?(0,8)
@@ -34,10 +34,3 @@ def valid_move?(board, index,"X")
       false
   end
 end
-
-
-
-
-
-
-  
