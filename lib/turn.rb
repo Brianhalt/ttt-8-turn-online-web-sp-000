@@ -23,7 +23,7 @@ def valid_move?(board, index)
   end
 end
 
-#Checks the number to see if the position is already taken 
+#Checks the number to see if the position is already taken
 def position_taken? (board,index)
   if board[index] == " "
     false
